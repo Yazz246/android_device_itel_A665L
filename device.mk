@@ -87,4 +87,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/itel/itel-A665L/itel-A665L-vendor.mk)
+$(call inherit-product, vendor/itel/A665L/A665L-vendor.mk)
