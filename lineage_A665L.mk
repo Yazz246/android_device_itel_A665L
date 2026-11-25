@@ -7,14 +7,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from itel-A665L device
-$(call inherit-product, device/itel/itel-A665L/device.mk)
+# Inherit from A665L device
+$(call inherit-product, device/itel/A665L/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_DEVICE := itel-A665L
-PRODUCT_NAME := lineage_itel-A665L
+PRODUCT_DEVICE := A665L
+PRODUCT_NAME := lineage_A665L
 PRODUCT_BRAND := Itel
 PRODUCT_MODEL := itel A665L
 PRODUCT_MANUFACTURER := itel
