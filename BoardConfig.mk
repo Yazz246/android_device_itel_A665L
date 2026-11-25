@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/itel/itel-A665L
+DEVICE_PATH := device/itel/A665L
 
 # A/B
 AB_OTA_UPDATER := true
@@ -32,7 +32,7 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := itel-A665L
+TARGET_BOOTLOADER_BOARD_NAME := sp9863a
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -47,8 +47,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := itel-A665L_defconfig
-TARGET_KERNEL_SOURCE := kernel/itel/itel-A665L
+TARGET_KERNEL_CONFIG := A665L_defconfig
+TARGET_KERNEL_SOURCE := kernel/itel/A665L
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -111,4 +111,4 @@ BOARD_AVB_VENDOR_BOOT_ROLLBACK_INDEX_LOCATION := 1
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
-include vendor/itel/itel-A665L/BoardConfigVendor.mk
+include vendor/itel/A665L/BoardConfigVendor.mk
