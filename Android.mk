@@ -5,6 +5,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),itel-A665L)
+ifeq ($(TARGET_DEVICE),A665L)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
