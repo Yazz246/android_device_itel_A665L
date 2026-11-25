@@ -4,9 +4,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_itel-A665L.mk
+    $(LOCAL_DIR)/lineage_A665L.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_itel-A665L-user \
-    lineage_itel-A665L-userdebug \
-    lineage_itel-A665L-eng
+    lineage_A665L-user \
+    lineage_A665L-userdebug \
+    lineage_A665L-eng
